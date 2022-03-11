@@ -1,0 +1,29 @@
+{
+  "name": "sila-sevgi",
+  "version": "1.0.0",
+  "description": "Bu bir deneme projesidir",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "sila": "echo 'Benim adım sila'",
+    "start": "node index.js"
+  },
+  "keywords": [
+    "deneme",
+    "paket"
+  ],
+  "author": "Sıla Sevgi",
+  "license": "ISC",
+  "dependencies": {
+    "mongoose": "^6.2.5",
+    "nodemailer": "^6.7.2",
+    "simple-is": "^0.2.0"
+  },
+  "devDependencies": {
+    "webpack-cli": "^4.9.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/silasevgi/sila-sevgi.git"
+  }
+}
